@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Montserrat;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 94px;
+  background-color: rgb(0, 0, 0);
+  overflow: visible;
+}
+
+.image {
+  display: block;
+  position: fixed;
+  top: 32px;
+  width: 40px;
+  height: auto;
+  overflow: hidden;
+}
+
+.image-1 {
+  left: 55.078125%;
+  z-index: 3;
+}
+
+.image-2 {
+  left: 41.07421875%;
+  z-index: 2;
+}
+
+.text-1 {
+  position: fixed;
+  top: 28px;
+  left: 44.75%;
+  z-index: 1;
+  width: 10.3333333333%;
+  min-height: 30px;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 31.0833333333%;
+  min-height: 242px;
+  margin: 399px 0 0 38.08203%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  position: absolute;
+  top: 885px;
+  left: 23.5%;
+  z-index: 5;
+  width: 50.3333333333%;
+  min-height: 402px;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
